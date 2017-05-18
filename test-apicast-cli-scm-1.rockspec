@@ -19,11 +19,10 @@ build = {
    modules = {
       ["test-apicast-cli.config.development"] = "config/development.lua",
       ["test-apicast-cli.config.production"] = "config/production.lua",
-      ["test-apicast-cli.init"] = "init.lua"
+      ["test-apicast-cli.init"] = "src/test-apicast-cli/init.lua",
    },
    install = {
       lua = {
-         ["test-apicast-cli.init"] = "init.lua"
       }
    }
 }
